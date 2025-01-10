@@ -1,0 +1,22 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "5c030791c9d14d4fd523473ba371593b"
+application_url = "https://testing-decimalight--development.gadget.app/api/shopify/install-or-render"
+embedded = true
+name = "Recommendation Quiz"
+handle = "recommendation-quiz-3"
+
+[webhooks]
+api_version = "2025-01"
+
+[auth]
+redirect_urls = [
+  "https://testing-decimalight--development.gadget.app/api/connections/auth/shopify/callback"
+]
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "recommendation-quiz-app.myshopify.com"
+include_config_on_deploy = true
