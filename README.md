@@ -16,7 +16,6 @@ Setting up the Gadget Development Environment
 
 Connect to the Shopify Partner Account
 1) Go to the Shopify Partner dashboard and create a new app - https://partners.shopify.com/organizations?redirect_to=%2Fcurrent
-
 2) Click Create app manually and name your app
 3) Copy the Client ID and Client secret back to Gadget. You can + Add App Credentials to the Development environment in Gadget, then click Confirm 
 4) Copy the App URL and Redirection URL back to the Shopify Partners dashboard. These can be pasted on the Configuration page of your Partners app
@@ -24,8 +23,14 @@ Connect to the Shopify Partner Account
 6) Navigate to the Plugins page, and click Shop Installs underneath the Shopify connection tile
 Once your sync is complete, you can build your first quiz in the shop admin.
 
+Setting up the Code Locally
+1) Go to the Gadget Development Environment - Click the Home button from the options on the left tab - Copy the command to bring up the codebase locally, which looks something loke this; 
+npm install -g ggt@latest && ggt dev ./"gadget-environment-name"--app="gadget-environment-name" --env=development
 
-
+2) run yarn dev - And follow the steps in the CLI and connect to your partners app.
+3) Paster this script tag to the extensions/blocks/quiz-page.liquid, on the line ;number 7 : <script src="https://{gadget-app-name}.gadget.app/api/client/web.min.js" defer="defer"></script> 
+4) And run yarn deploy, and select the Shopify store you have created, there will be a .env file created, copy the SHOPIFY_QUIZ_ID ang go to the Gadget app, and in the settings -> environment variables, for the GADGET_PUBLIC_SHOPIFY_THEME_EXTENSION_ID variable.
+And click on save
 
 
 
