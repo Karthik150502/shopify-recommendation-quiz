@@ -42,4 +42,5 @@ And click on save.
 Video Demo - Adding the theme app to the Merchant website, and demo on the Quiz App
 Link - https://drive.google.com/file/d/10AydGkjf3ziz7X4yZAG0iobI842ZOwj0/view?usp=sharing
 
-App Link - https://recommendation-quiz-app.myshopify.com/
+Store Link - https://recommendation-quiz-app.myshopify.com/
+Store password - chiari
