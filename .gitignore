@@ -8,6 +8,6 @@ extensions/**/dist
 extensions/**/node_modules
 
 
-.env.*
+.env*.local
 .env.development
 .env
