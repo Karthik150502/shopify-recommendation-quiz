@@ -30,7 +30,11 @@ npm install -g ggt@latest && ggt dev ./"gadget-environment-name"--app="gadget-en
 2) run yarn dev - And follow the steps in the CLI and connect to your partners app.
 3) Paster this script tag to the extensions/blocks/quiz-page.liquid, on the line ;number 7 : <script src="https://{gadget-app-name}.gadget.app/api/client/web.min.js" defer="defer"></script> 
 4) And run yarn deploy, and select the Shopify store you have created, there will be a .env file created, copy the SHOPIFY_QUIZ_ID ang go to the Gadget app, and in the settings -> environment variables, for the GADGET_PUBLIC_SHOPIFY_THEME_EXTENSION_ID variable.
-And click on save
+And click on save.
+5) And on the top right section of the Gadget app, click on the Preview options, and select the partner app link. and navigate to the link
+6) There you can see the Quiz app in the admin dashboard, create a new quiz
+7) click on the install tab, and select a theme. And embed the quiz app as said in the video tutorial in the theme.
+8) Now you have the theme app in the Store site.
 
 
 
