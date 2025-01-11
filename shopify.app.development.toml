@@ -6,6 +6,10 @@ embedded = true
 name = "Recommendation Quiz"
 handle = "recommendation-quiz-3"
 
+[build]
+dev_store_url = "recommendation-quiz-app.myshopify.com"
+include_config_on_deploy = true
+
 [webhooks]
 api_version = "2025-01"
 
@@ -16,7 +20,3 @@ redirect_urls = [
 
 [pos]
 embedded = false
-
-[build]
-dev_store_url = "recommendation-quiz-app.myshopify.com"
-include_config_on_deploy = true

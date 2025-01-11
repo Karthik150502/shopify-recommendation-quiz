@@ -6,3 +6,8 @@ node_modules/
 # Shopify
 extensions/**/dist
 extensions/**/node_modules
+
+
+.env.*
+.env.development
+.env
